@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gibin T George | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            fadeIn: "fadeIn 1.5s ease-out",
+            slideUp: "slideUp 1s ease-out"
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: 0 },
+              '100%': { opacity: 1 },
+            },
+            slideUp: {
+              '0%': { transform: 'translateY(20px)', opacity: 0 },
+              '100%': { transform: 'translateY(0)', opacity: 1 },
+            },
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Hero -->
+  <section class="bg-white shadow p-8 text-center animate-fadeIn">
+    <h1 class="text-4xl font-bold">Gibin Thattayath George</h1>
+    <p class="text-lg mt-2">JavaScript Developer | React.js | Next.js | Node.js</p>
+    <p class="mt-2 text-sm text-gray-600">Loveland, OH</p>
+  </section>  <!-- Summary -->  <section class="max-w-4xl mx-auto p-6 animate-slideUp">
+    <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+    <p>
+      Proficient JavaScript developer with extensive experience in React.js, Next.js, and Node.js, coupled with expertise in HTML5, CSS, and SCSS. Skilled in testing frameworks like Jest, React Testing Library, and Playwright. Experienced with Google Cloud and supporting long-term production projects.
+    </p>
+  </section>  <!-- Experience -->  <section class="max-w-4xl mx-auto p-6 bg-white shadow rounded mt-6 animate-slideUp">
+    <h2 class="text-2xl font-semibold mb-4">Experience</h2><div class="mb-4">
+  <h3 class="text-xl font-bold">Assistant Consultant - TCS</h3>
+  <p class="text-sm text-gray-600">Cincinnati, OH | Dec 2023 – Present</p>
+  <ul class="list-disc ml-5 mt-2">
+    <li>Boosted B2B app performance by 20% using React JS.</li>
+    <li>Modernized banking account transfer modules.</li>
+    <li>Led as Senior UI Developer & Offshore Coordinator.</li>
+  </ul>
+</div>
+
+<div class="mb-4">
+  <h3 class="text-xl font-bold">IT Analyst - TCS</h3>
+  <p class="text-sm text-gray-600">Kochi, India | Sep 2021 – Nov 2023</p>
+  <ul class="list-disc ml-5 mt-2">
+    <li>Improved user management and admin modules using React JS.</li>
+    <li>Mentored juniors and conducted code reviews.</li>
+  </ul>
+</div>
+
+<div class="mb-4">
+  <h3 class="text-xl font-bold">Systems Analyst - UST</h3>
+  <p class="text-sm text-gray-600">Kochi, India | Jun 2020 – Sep 2021</p>
+  <ul class="list-disc ml-5 mt-2">
+    <li>Built NPM libraries for report interfaces and PDF generation.</li>
+  </ul>
+</div>
+
+<div class="mb-4">
+  <h3 class="text-xl font-bold">Project Engineer - Wipro</h3>
+  <p class="text-sm text-gray-600">Kochi, India | Sep 2014 – May 2020</p>
+  <ul class="list-disc ml-5 mt-2">
+    <li>Developed UI apps to resolve billing mismatches using React, Node, MongoDB.</li>
+    <li>Earlier systems built in C#, ASP.NET, and SQL Server.</li>
+  </ul>
+</div>
+
+  </section>  <!-- Skills -->  <section class="max-w-4xl mx-auto p-6 mt-6 animate-slideUp">
+    <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+    <p>React.js, JavaScript, HTML5, SCSS, CSS3, Redux, Zustand, Next.js, TypeScript, NPM, Webpack, Express.js, Java, React Testing Library, Jest, C#, Jira, Git, React Hooks</p>
+  </section>  <!-- Education -->  <section class="max-w-4xl mx-auto p-6 mt-6 bg-white shadow rounded animate-slideUp">
+    <h2 class="text-2xl font-semibold mb-4">Education</h2>
+    <ul class="list-disc ml-5">
+      <li><strong>MTech in Software Engineering</strong> – BITS Pilani, Rajasthan – Nov 2018</li>
+      <li><strong>Bachelor of Computer Application</strong> – CET College, Ernakulam – Jun 2014</li>
+    </ul>
+  </section>  <!-- Contact -->  <section class="max-w-4xl mx-auto p-6 mt-6 text-center animate-slideUp">
+    <h2 class="text-2xl font-semibold mb-2">Get in Touch</h2>
+    <p>LinkedIn: <a href="https://linkedin.com/in/gibintgeorge" class="text-blue-500" target="_blank">linkedin.com/in/gibintgeorge</a></p>
+  </section>
+</body>
+</html>
